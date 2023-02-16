@@ -1,0 +1,68 @@
+.form-signin,
+.form-signin2 {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+html,
+body,
+div#root,
+.container-fluid {
+  height: 100%;
+}
+
+.fc .fc-timegrid-slot {
+  height: 2.5em;
+  border-bottom: 0;
+}
+
+.fc-timegrid-slots tr {
+  height: 2.5em;
+}
+
+.fc .fc-toolbar {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+main.form-signin {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover-brig:hover {
+  filter: brightness(0.9);
+}
+
+a.fc-col-header-cell-cushion {
+  color: #2C3E50 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.fc-toolbar h2 {
+  display: inline;
+  padding: 0px 8px 0px 8px;
+}
+
+.fc .fc-col-header-cell-cushion {
+  padding: 2px 180px 2px 4px !important;
+}
+
+.justify-content-md-center.row {
+  color: #2C3E50 !important;
+}

@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "jest",
+    "lint": "npm run lint:es",
+    "lint:fix": "npm run lint:es:fix",
+    "lint:es": "eslint **/*.js",
+    "lint:es:fix": "eslint --fix **/*.js",
+    "start": "live-server --port=8000"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.30.0"
+  },
+  "dependencies": {
+    "swagger-ui-express": "^4.4.0"
+  }
+}
